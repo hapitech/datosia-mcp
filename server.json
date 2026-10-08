@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "net.datosia/datos",
+  "title": "DatosIA — Central America data",
+  "description": "Official public data for Central America and the Dominican Republic, down to the municipality.",
+  "version": "0.1.0",
+  "websiteUrl": "https://datosia.net",
+  "repository": { "url": "https://github.com/hapitech/datosia-mcp", "source": "github" },
+  "remotes": [ { "type": "streamable-http", "url": "https://datosia.net/mcp" } ]
+}
