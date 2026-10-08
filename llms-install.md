@@ -26,4 +26,4 @@ If the client only supports stdio servers, use the bridge instead:
    the user enters their email and the code they receive. No API key is required. Alternatively,
    send a free API key from https://datosia.net/account in an `x-api-key` header.
 
-3. Test it with the `search_data` tool, e.g. `{"q": "población de Quetzaltenango por municipio"}`.
+3. Test it with the `search_data` tool, e.g. `{"question": "población de Quetzaltenango por municipio"}`.

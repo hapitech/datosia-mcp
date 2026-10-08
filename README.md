@@ -55,7 +55,7 @@ claude mcp add --transport http datosia https://datosia.net/mcp
 | `search_news` / `entity_timeline` / `entity_network` | News, public figures and organisations, timelines and relationships |
 | `search_legal` | Laws, decrees and official gazettes |
 | `search_research` | Academic and policy research |
-| `call_live_source` | Live official APIs (exchange rates, weather, alerts) |
+| `call_live_source` | Live APIs of datasets published on the marketplace |
 | `convert_currency` / `calendar` | Exchange rates; holidays and official calendars |
 | `browse_marketplace` / `get_marketplace_terms` / `draft_dataset` / `estimate_dataset_demand` / `list_data_requests` | Data marketplace: buy or publish datasets |
 | `report_data_issue` | Report a wrong or missing number |
