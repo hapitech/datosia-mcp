@@ -7,7 +7,7 @@ DatosIA is a remote MCP server; nothing needs to be installed or built.
 ```json
 {
   "mcpServers": {
-    "datosia": { "url": "https://datosia.net/mcp", "disabled": false, "autoApprove": [] }
+    "datosia": { "url": "https://mcp.datosia.net/mcp", "disabled": false, "autoApprove": [] }
   }
 }
 ```
@@ -17,7 +17,7 @@ If the client only supports stdio servers, use the bridge instead:
 ```json
 {
   "mcpServers": {
-    "datosia": { "command": "npx", "args": ["-y", "mcp-remote", "https://datosia.net/mcp"] }
+    "datosia": { "command": "npx", "args": ["-y", "mcp-remote", "https://mcp.datosia.net/mcp"] }
   }
 }
 ```

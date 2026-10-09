@@ -11,24 +11,24 @@ education, climate, laws and official gazettes, news and the people and organisa
 and live official sources. Every answer cites its source.
 
 - Website: https://datosia.net (Spanish) · developer docs: https://datosmcp.com/docs
-- MCP endpoint (remote, Streamable HTTP): `https://datosia.net/mcp`
+- MCP endpoint (remote, Streamable HTTP): `https://mcp.datosia.net/mcp`
 - Auth: OAuth 2.1 (free account, sign in with your email) or an `x-api-key` header (free key at https://datosia.net/account)
 - Price: free tier; paid plans for higher limits
 
 ## Connect
 
-**Claude (claude.ai / Desktop):** Settings → Connectors → Add custom connector → `https://datosia.net/mcp`
+**Claude (claude.ai / Desktop):** Settings → Connectors → Add custom connector → `https://mcp.datosia.net/mcp`
 
 **Claude Code:**
 ```bash
-claude mcp add --transport http datosia https://datosia.net/mcp
+claude mcp add --transport http datosia https://mcp.datosia.net/mcp
 ```
 
 **Cursor / VS Code / Cline / any client with remote MCP:**
 ```json
 {
   "mcpServers": {
-    "datosia": { "url": "https://datosia.net/mcp" }
+    "datosia": { "url": "https://mcp.datosia.net/mcp" }
   }
 }
 ```
@@ -37,7 +37,7 @@ claude mcp add --transport http datosia https://datosia.net/mcp
 ```json
 {
   "mcpServers": {
-    "datosia": { "command": "npx", "args": ["-y", "mcp-remote", "https://datosia.net/mcp"] }
+    "datosia": { "command": "npx", "args": ["-y", "mcp-remote", "https://mcp.datosia.net/mcp"] }
   }
 }
 ```
