@@ -1,4 +1,4 @@
-# DatosIA — MCP server for Central America data
+# DatosIA: MCP server for Central America data
 
 **Official public data for Central America and the Dominican Republic, down to the municipality, for AI assistants.**
 *Datos públicos oficiales de Centroamérica y República Dominicana, hasta el municipio, para asistentes de IA.*
